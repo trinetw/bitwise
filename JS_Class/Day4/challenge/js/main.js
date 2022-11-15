@@ -1,7 +1,7 @@
 let q1 = prompt('Please input a number:');
 let q2 = prompt('Please input another number:');
 
-function numbertest(q1, q2) {
+function ntest(q1, q2) {
     if (q1 < q2) {
         // alert("Your first number is smaller."); Failed attempt
         alert(parseFloat(q1)+ ' is smaller than ' + parseFloat(q2));
@@ -17,9 +17,9 @@ function numbertest(q1, q2) {
 function compare(){
     if (isNaN(q1, q2)) {
         alert('PLEASE! Give me a real number *stare*:');
-        recurse(question);
+        // recurse(question); // I do not know how to use this
     } else {
-        numbertest(q1, q2);
+        ntest(q1, q2);
     }
 }
 compare();
