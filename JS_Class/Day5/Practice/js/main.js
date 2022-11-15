@@ -40,5 +40,3 @@ console.log(sentence);
 // arrow functions
 () => {}; //shorthand for anonymous function
 const myArrowFunction = (param1) => 1+1;
-
-[1, 2, 3].
